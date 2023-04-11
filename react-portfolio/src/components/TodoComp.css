@@ -1,0 +1,116 @@
+.oldTodo{
+    padding: 20px 0px;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'SUIT-Regular';
+    font-weight: 900;
+    font-size: large;
+    border: 2px rgba(0, 0, 0, 0.507) solid;
+}
+
+.done{
+    padding: 20px 0px;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'SUIT-Regular';
+    font-weight: 900;
+    font-size: large;
+    border: 2px rgba(0, 0, 0, 0.507) solid;
+    text-decoration: line-through;
+    color: rgba(61, 68, 65, 0.281);
+}
+
+.TodoComp{
+    margin: auto;
+    padding-top: 20px;
+    width: 700px;
+    background-color: rgba(111, 118, 187, 0.753);
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.185);
+    height: 1000px;
+}
+
+.title{
+    font-family: 'Galmuri11';
+    font-size: 50px;
+    text-shadow: 2px 2px 2px white;
+}
+
+.todo-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    height: 25px;
+    width: 300px;
+}
+
+.btn0{
+    height: 30px;
+    margin-left: 5px;
+    margin-bottom: 0;
+    border-radius: 50%;
+    font-size: 15px;
+    font-family: 'Galmuri11';
+    font-weight: bold;
+}
+
+.btn0:hover{
+    background-color: black;
+    color: white;
+}
+
+.btn1{
+    margin-right: 20px;
+    padding: 3px 10px;
+    width: 150px;
+    background-color: rgb(146, 146, 146);
+    color: white;
+    border: dashed black 3px;
+    font-size: 15px;
+    font-family: 'Galmuri11';
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background-color: darkblue;
+}
+
+.btn2{
+    margin-left: 20px;
+    padding: 3px 10px;
+    width: 150px;
+    background-color: rgb(146, 146, 146);
+    color: white;
+    border: dashed black 3px;
+    font-size: 15px;
+    font-family: 'Galmuri11';
+    font-weight: bold;
+}
+
+.btn2:hover{
+    background-color: darkblue;
+}
+
+.btn3{
+    margin-right: 7px;
+}
+
+.btn4{
+    margin-left: 7px;
+    font-size: 15px;
+}
+
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
