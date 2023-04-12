@@ -12,7 +12,7 @@ export default function FormComp() {
         <div>
             <form onSubmit={
                 (e) => {
-                    e.preventDefault();
+                    e.preventDefault(); // 자동으로 넘어가지 않도록 막는 역할
                     // 라우터를 이용하여 이동
                     // Link 컴포넌트 사용 불가
                     // navigate를 통해서 주소 이동 가능

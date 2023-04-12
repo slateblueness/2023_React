@@ -3,6 +3,7 @@ import React from 'react'
 // Link를 통해서 react-router-dom에서 지정한 주소로 이동
 import { Link } from 'react-router-dom'
 import FormComp from '../components/FormComp';
+import Story3List from './Story3List';
 
 export default function Home() {
     const fruit = "apple";
@@ -21,6 +22,10 @@ export default function Home() {
             <Link to={`/story/${fruit}`}>Story</Link>
             <hr />
 
+            <Link to='/articles'>Articles</Link>
+
+            <hr />
+            {/* 쿼리스트링 값을 About에 전달하는 컴포넌트 */}
             <FormComp/>
 
             {/* map을 이용해서 배열의 값을 Link의 to 주소값으로 사용 */}
